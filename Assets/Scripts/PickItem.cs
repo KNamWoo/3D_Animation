@@ -1,6 +1,7 @@
 using System;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PickItem : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class PickItem : MonoBehaviour
             {
                 transform.SetParent(playerPickPoint.transform);
                 transform.localPosition = Vector3.zero;
-                transform.localRotation = new quaternion(0, 0, 0, 0);
+                //transform.rotation = new quaternion(-89.98f, 0, 0, 0);
 
                 isPlayerEnter = false;
             }
