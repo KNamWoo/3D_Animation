@@ -119,6 +119,87 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &36843470
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.46
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.41
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8362726026778424864, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8c441c6273ae834a989747ff20cedaf, type: 2}
+    - target: {fileID: -5219258245350981263, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3482870668533553735, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8c441c6273ae834a989747ff20cedaf, type: 2}
+    - target: {fileID: -3272106112100924687, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.743
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: m_Name
+      value: SkeweredFood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1732718354913028914, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8c441c6273ae834a989747ff20cedaf, type: 2}
+    - target: {fileID: 6342873195707826901, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: b8c441c6273ae834a989747ff20cedaf, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba54968a53d4662478553a03d7a11eae, type: 3}
 --- !u!1 &276635074
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,13 +452,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1892560151}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.4110518, y: -0.72382116, z: 0.5202292, w: -0.19099979}
+  m_LocalPosition: {x: -2.22, y: 3, z: -6.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 36.59, y: -241.285, z: -81.347}
 --- !u!114 &1892560154
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -408,3 +489,4 @@ SceneRoots:
   - {fileID: 276635077}
   - {fileID: 1892560153}
   - {fileID: 395662406}
+  - {fileID: 36843470}
