@@ -34,11 +34,11 @@ public class MomMove : MonoBehaviour
     {
         if (moving == true)
         {
-            anim.Play("Walking");
+            anim.Play("MomWalk");
         }
         else
         {
-            anim.Play("Standing Idle");
+            anim.Play("MomGreet");
         }
     }
 
