@@ -15,7 +15,6 @@ public class MomMove : MonoBehaviour
 
     public void Awake()
     {
-
         anim = GetComponent<Animator>();
         rbody = GetComponent<Rigidbody>();
     }
