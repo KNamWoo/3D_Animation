@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 public class MomMove : MonoBehaviour
 {
     Vector3 moveVec;
+    public Vector3 target;
     public float speed;
 
     public float h, v;
@@ -20,12 +21,12 @@ public class MomMove : MonoBehaviour
     }
     public void Start()
     {
-        moving = false;
+        //moving = false;
     }
 
     public void Update()
     {
-        Move();
+        //Move();
         Motion();
     }
 
@@ -37,13 +38,13 @@ public class MomMove : MonoBehaviour
         }
         else
         {
-            anim.Play("MomGreet");
+            anim.Play("MomIdle");
         }
     }
 
     public void Move()
     {
-        h = Input.GetAxis("Horizontal");
+        //h = Input.GetAxis("Horizontal");
         v = Input.GetAxis("Vertical");
         if (h != 0 || v != 0)
         {
@@ -54,11 +55,12 @@ public class MomMove : MonoBehaviour
             moving = false;
         }
         Vector3 curPos = transform.position;
-        Vector3 nextPos = new Vector3(h, 0, v) * speed * Time.deltaTime;
+        /*Vector3 nextPos = new Vector3(h, 0, v) * speed * Time.deltaTime;
 
         transform.position = curPos + nextPos;
         moveVec = new Vector3(h, 0, v).normalized;
 
-        transform.LookAt(transform.position + moveVec);
+        transform.LookAt(transform.position + moveVec);*/
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(target.x, transform.position.y, target.z), speed * Time.deltaTime);
     }
 }

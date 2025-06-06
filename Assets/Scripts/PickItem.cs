@@ -23,22 +23,14 @@ public class PickItem : MonoBehaviour
         playerPickPoint = GameObject.FindGameObjectWithTag("PickUpPoint");
         if (Input.GetMouseButtonDown(0))
         {
-            if (isPlayerEnter)
-            {
-                transform.SetParent(playerPickPoint.transform);
-                transform.localPosition = Vector3.zero;
-                //transform.rotation = new quaternion(-89.98f, 0, 0, 0);
-
-                isPlayerEnter = false;
-            }
-            else
-            {
-                Debug.Log("플레이어 진입이 인식되지 않음");
-            }
+            transform.SetParent(playerPickPoint.transform);
+            transform.localPosition = Vector3.zero;
+            transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+            //transform.rotation = new quaternion(-89.98f, 0, 0, 0);
         }
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
@@ -47,12 +39,12 @@ public class PickItem : MonoBehaviour
         }
     }
 
-    void OnTriggerExit(Collider other)
+    /*void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
             isPlayerEnter = false;
             Debug.Log("플레이어 아웃");
         }
-    }
+    }*/
 }

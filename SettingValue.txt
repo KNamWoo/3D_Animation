@@ -20,6 +20,7 @@ Farm
 ´ç±Ù »Ì±â
 	- ÇØ : Rota(76.827, -30, 0) Inten(3) Color(FFFFFF)
 	- Cam : BackCam, CarrotCam
+	- Point Light : -0.073, 1.069, 0.436
 
 Àú³á
 	- ÇØ : Rota(119.82, -30, 0) Inten(3) Color(FFA253)
