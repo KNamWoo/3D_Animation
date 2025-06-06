@@ -36,10 +36,6 @@ public class MomMove : MonoBehaviour
         {
             anim.Play("MomWalk");
         }
-        else
-        {
-            anim.Play("MomIdle");
-        }
     }
 
     public void Move()
